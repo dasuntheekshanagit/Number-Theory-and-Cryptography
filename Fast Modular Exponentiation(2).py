@@ -13,7 +13,7 @@ def FastModularExponentiation(b, e, m):
     for i in range(len(n)):
         if n[i] == '1':
             answer*=FastModularExponentiation_(b,i,m)
-        answer = answer % m
+    answer = answer % m
     return answer
 # With this code all of the Modular Exponentiation problems could been solved.
 
